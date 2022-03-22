@@ -6,6 +6,12 @@ public class StringTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		int arr[]; //배열의 이름만 선언
+		arr = new int[10];
+		//int arr[] = new int [10];
+		arr[0] = 10;
+	
 		Scanner scann = new Scanner(System.in);
 		while(true) {
 			System.out.print(">>");
